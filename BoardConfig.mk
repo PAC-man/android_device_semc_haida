@@ -31,4 +31,4 @@ TW_HAS_NO_RECOVERY_PARTITION := true
 TW_FLASH_FROM_STORAGE := true
 
 # inherit from the proprietary version
--include vendor/semc/urushi/BoardConfigVendor.mk
+-include vendor/semc/haida/BoardConfigVendor.mk
