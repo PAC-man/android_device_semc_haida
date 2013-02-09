@@ -3,7 +3,7 @@
 -include vendor/semc/haida/BoardConfigVendor.mk
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/urushi/config
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/semc/haida/config
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/semc/msm7x30
