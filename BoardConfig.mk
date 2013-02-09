@@ -11,6 +11,13 @@ TARGET_KERNEL_CONFIG := pac_haida_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-gnueabihf-linaro-4.7
 
+# Architecture
+TARGET_ARCH := arm
+TARGET_CPU_ABI := armeabi-v7a
+TARGET_CPU_ABI2 := armeabi
+TARGET_ARCH_VARIANT := armv7-a-neon
+ARCH_ARM_HAVE_TLS_REGISTER := true
+
 TARGET_RECOVERY_INITRC := device/semc/haida/recovery/init.rc
 
 # Sensor
